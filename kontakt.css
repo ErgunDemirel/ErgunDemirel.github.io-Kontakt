@@ -1,0 +1,152 @@
+.Logo {
+    width: 100;
+    float: left;
+}
+
+.Pro {
+    width: 85;
+    float: right;
+}
+
+.abt {
+    width: 85;
+    float: right;
+}
+
+.kont {
+    width: 85;
+    float: right;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*.insta {
+    width: 90;
+    float: left;
+    margin-left: 485;
+}
+
+.mail {
+    height: 100;
+    width: 85;
+    float: right;
+    margin-right: 485;
+}
+
+.git {
+    float: left;
+    width: 55;
+    margin-left: 350;
+} */
+
+.flex {
+    display: flex;
+    background-color: darkred;
+    justify-content: center;
+}
+
+.flex > div {
+    background-color: darkred;
+    margin: 20;
+    margin-top: 90;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.insta {
+    width: 85;
+}
+
+.mail {
+    width: 85;
+}
+
+.git {
+    width: 85;
+}
+
+.links {
+    float: right;
+    margin-top: 23;
+    font-size: 20;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.kon {
+    margin-right: 45px;
+    color: black;
+}
+
+.abou {
+    margin-right: 45px;
+}
+
+.proj {
+    margin-right: 10;
+}
+
+.kon:hover {
+    color: white;
+}
+
+.abou:hover {
+    color: black;
+}
+
+.proj:hover {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    font-size: 20;
+}
+
+nav .Logo,
+footer .Logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo a,
+footer .Logo a {
+    margin-left: 8;
+}
+
+.Logo {
+    width: 100;
+}
+
+nav ul,
+footer .top ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
